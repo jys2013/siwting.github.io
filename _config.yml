@@ -10,4 +10,4 @@ author:
 deploy:
     type: git
     remote: https://github.com/siwting/siwting.github.io.git
-    branch: master
+    branch: 'master'
