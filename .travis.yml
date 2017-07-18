@@ -1,16 +1,16 @@
 language: python
 python:
 - '2.7'
-
 install:
 - pip install fabric
 - pip install ghp-import
 - pip install simiki
-
 branches:
   only:
   - wiki
-  
 script:
-  - simiki g
-  - fab deploy
+- simiki g
+- fab deploy
+before_install:
+- openssl aes-256-cbc -K $encrypted_a4b65e682148_key -iv $encrypted_a4b65e682148_iv
+  -in id_rsa.enc -out ~\/id_rsa -d
