@@ -20,4 +20,3 @@ before_install:
 - git config --global user.name "siwting"
 - git config --global user.email siwting90@gmail.com
 - git remote set-url origin git@github.com:siwting/siwting.github.io.git
-- git branch wiki origin/wiki
