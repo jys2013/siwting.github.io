@@ -15,7 +15,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_a4b65e682148_key -iv $encrypted_a4b65e682148_iv
   -in id_rsa.enc -out ~/id_rsa -d
 - chmod 600 ~/id_rsa
-- cp ssh_config ~/.ssh/config
 - git config --global user.name "siwting"
 - git config --global user.email siwting90@gmail.com
 - git remote set-url origin git@github.com:siwting/siwting.github.io.git
