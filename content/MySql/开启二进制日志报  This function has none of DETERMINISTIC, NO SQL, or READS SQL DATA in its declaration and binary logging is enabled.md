@@ -1,5 +1,7 @@
 ---
-tags: 积累,数据库,mysql
+title: 开启二进制日志报  This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled
+layout: page
+date: 2017-06-02 00:00
 ---
 
 # 开启二进制日志报  This function has none of DETERMINISTIC, NO SQL, or READS SQL DATA in its declaration and binary logging is enabled
